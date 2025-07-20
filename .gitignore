@@ -1,0 +1,51 @@
+# === Java build output ===
+/target/
+build/
+
+# === Maven ===
+.mvn/
+!**/src/**/mvn/
+mvnw
+mvnw.cmd
+
+# === Gradle (if applicable) ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+# === Logs ===
+*.log
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# === Eclipse / STS ===
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# === NetBeans ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# === VS Code ===
+.vscode/
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+
+# === Misc ===
+HELP.md
